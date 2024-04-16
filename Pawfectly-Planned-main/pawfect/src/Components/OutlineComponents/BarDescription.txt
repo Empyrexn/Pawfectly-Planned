@@ -1,0 +1,6 @@
+This holds the different bar components
+- currently there are extras as I ported some over from different projects
+- only useones in use:
+    - SideBarHolder: lets me change which side bar is rendered based off of page number
+    - sideBarMain: the side bar rendered with the home page
+    - sideBar: the side bar rendered with all other page

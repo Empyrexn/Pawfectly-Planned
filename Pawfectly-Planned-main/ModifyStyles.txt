@@ -1,0 +1,9 @@
+To modify styles you have two options
+    1: go inline to the div or object and use style={{css style}}
+or
+    1: go to prime.scss
+    2: modify with any css or look up scss for your goal
+    3: go to terminal and run "grunt" to compile changes to App.css
+
+Benefits of grunt:
+    allows for variables in css code. ie screen size 

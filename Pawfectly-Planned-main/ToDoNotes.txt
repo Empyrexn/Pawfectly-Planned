@@ -1,0 +1,50 @@
+Timer: 
+    - Currently a timer only runs when you click start and stop on that page, stored in context(global var) to be sent to server
+        - can send to server on every page change? need to fogure out effective position for server call
+
+    - can create global timer that counts but isn't visable sent to server on page change that keeps track of total time on website? 
+    - need to go over specific information flow with multiple timers
+    Possible multiple timer concept
+        - prerender on timer page, on timer button click adjust z axis or opacity of component to "move to the top" 
+        - will break current global timer context, need to create hidden global timer and move context call 
+    - add another symbol each cycle 
+    - recrod number of cycles? 
+
+Log in page (should be done)
+    - needs server call to check if email exists when google log in; if yes pull information if no create user
+        - using email as unique id
+    - needs server call to allow normal log in 
+        - should be same as google except on google each users password will be googlelogin+email
+Sign in page
+    - needs ui/ux 
+        - can copy log in page, can create seperate
+    - needs server call to check if account exists (needs testing)
+        - reject if it does else create it
+
+Study page; use google 
+    - to do list needs server call, or need to figure out how events work in google calendar
+        - note: the more google we use the more screwed we are with a non google log in
+        - ntoe: the less google we use the more information we need to store per user
+
+Background store page: Option 1. 
+    - proofOfConcept shows how I plan to handle that
+    - Opt1: to handle unlocks store "bgUnlockArray[]" in server and if its a 1 at that spot allow render else return null
+        - pros simple, not a lot of backend storage outside of unlock arrays for each thing to be unlocked
+        - cons not secure, puts work on front end. 
+    - Opt2: remove case statement, only store paths of rewards on their account if its unlocked
+        - pros more secure
+        - cons more server calls
+
+Calendar: 
+    - either google updated or permissions changed need to debug and troubleshoot why mine works but others dont
+    - potential problems
+        - didnt give pawfect permissions
+        - currently pulls from users "primary" calendar might not exist for some users
+            - solution: create pawfect calendar in google for each user
+                - cons might be annoying
+                - pros might solve our problems
+    - for main calendar for non google users store tasks in database? 
+        ignore users without a google account 
+
+music
+    - look into youtube stuff for music

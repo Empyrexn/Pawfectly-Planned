@@ -1,0 +1,12 @@
+step 1: ensure that you have node.js installed on your device 
+    - if not this link should work: https://nodejs.org/en/download/
+step 2: npm instal if not already done
+step 3: "cd pawfect" in terminal
+step 4: "npm start" in terminal
+
+To run back end: 
+ Cd to pawfect
+ cd to src
+ cd to Models
+ node index.js 
+ - possible downloads needed

@@ -1,0 +1,6 @@
+This holds the main containers of each page where most of the specific styling is done
+- homePageMain: The primary page/ account page
+- LoginPage: The container for the login PageMain
+- SigninPage: the container for the signing up page
+- startStudyingMain: the container for the start studying page
+- StudyMain: the container for the study stats page

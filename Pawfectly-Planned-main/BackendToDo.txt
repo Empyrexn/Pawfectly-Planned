@@ -1,0 +1,14 @@
+Current plans
+- Each user needs an array of 0 or 1 for each set of store items that they own
+    - backgrounds, colors, characters, username profiles
+- each user needs standard data
+    - points
+    - array that holds last set of customizations 
+        - ie [22,3,43] which will be extracted on front end for profile pic, background, and color scheme. 
+
+Future plans
+    - user
+        - achievements
+        - time online? 
+        - tasks 
+    - list of quotes to be randomly displayed on log in

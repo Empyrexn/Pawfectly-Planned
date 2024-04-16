@@ -1,0 +1,8 @@
+In react.js without using classes, context is the way to create global variables and not have to pass them down a tree from parent to child.
+This allows me to render the context in contextHolder and manipulate it as needed within the files. 
+My plan is to update all of these once on log in or page refresh from databse, then use them as needed to avoid exccessive database calls
+- AccountInfo: holds the user info once logged in
+- BuddyInfo: holds buddy info once logged in
+- Context: renders if a graphic is visable, will be used throughout the files
+- RenderPage1: renders page numbers 
+- BulletinBoard: holds notes once logged in for BulletinBoard

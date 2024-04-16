@@ -1,0 +1,4 @@
+This folder holds all the components rendered on the main page: HomePageMain
+- BulletinBoard renders the BulletinBoard
+- start studying is unused:
+- YourSchedule renders a calendar

@@ -1,0 +1,5 @@
+This folder holds the holders that all for the outlines of the program
+- ContextHolder: assigns context( ie global variables)
+- PageMain: The standard styling outline for each PageMain
+- signedHolder: holds the files for when a user is signed in
+- unsignedHolder: holds the file path for when a user isn't signed in

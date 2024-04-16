@@ -1,0 +1,1 @@
+Log in and Sign up require server calls, state holds, updating cookies, and are only used once so they are stored seperately here
